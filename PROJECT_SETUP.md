@@ -5,14 +5,15 @@
 - **项目名称**: 贪吃蛇游戏 (Snake Game)
 - **技术栈**: Vue 3 + Vite
 - **部署方式**: GitHub Pages
-- **项目路径**: `/Users/jim/0-Phd/Back-to-future/Web2Tool/webNavigator-homepage/game/snake-game`
+- **项目路径**: `/Users/jim/0-Phd/Back-to-future/Web2Tool/webNavigator-homepage/game`
 
 ## ✅ 环境检查
 
 - ✅ Node.js: v20.13.1
 - ✅ npm: 10.5.2
 - ✅ 依赖已安装
-- ✅ 开发服务器已启动: http://localhost:5173/game/
+- ✅ 开发服务器已启动: http://localhost:5174/game/
+- ✅ 项目结构已优化为扁平化结构
 
 ## 📦 已完成的配置
 
@@ -54,10 +55,10 @@
 
 ### 本地开发和测试
 ```bash
-cd snake-game
+cd /Users/jim/0-Phd/Back-to-future/Web2Tool/webNavigator-homepage/game
 npm run dev
 ```
-访问: http://localhost:5173/game/
+访问: http://localhost:5174/game/
 
 ### 部署到 GitHub Pages
 
