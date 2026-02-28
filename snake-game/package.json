@@ -1,0 +1,19 @@
+{
+  "name": "snake-game",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "deploy": "npm run build && cd dist && git init && git add -A && git commit -m 'deploy' && git push -f git@github.com:YOUR_USERNAME/YOUR_REPO.git main:gh-pages"
+  },
+  "dependencies": {
+    "vue": "^3.5.25"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^6.0.2",
+    "vite": "^7.3.1"
+  }
+}
